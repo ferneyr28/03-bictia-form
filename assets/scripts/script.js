@@ -7,7 +7,8 @@ formulario.onsubmit = function(e){
     let clave = document.getElementById("clave");
     let edad = document.getElementById("edad");
     let tYc = document.getElementById("tYc");
-    
+    let mensajeNombre = document.getElementById('mensajeAlertaNombre');
+    //console.log(name.value);
     res(nombre, mensajeNombre);
     res(apellido, mensajeNombre);
     res(correo, mensajeNombre);
