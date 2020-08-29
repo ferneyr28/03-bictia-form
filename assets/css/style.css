@@ -1,0 +1,79 @@
+*{
+    /* formatear todo el documento*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.formContact {
+    width: 40%;
+    margin: auto; /* se ubica en la mitad*/
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contInput {
+    
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+div.contInput > label {
+    margin-bottom: 5px;
+}
+
+.contInput input{
+    border: none;
+    padding: 10px 15px;
+    background-color: rgb(255, 249, 214);
+    border-radius: 10px;
+}
+
+.contInput input:focus {
+    box-shadow: 0px 0px 2px black;
+}
+
+.btnEnviar{
+    margin-top: 40px;
+    align-self: center;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 10px;
+    background-color: rgb(12, 112, 151);
+    cursor: pointer;
+
+}
+
+.btnEnviar:hover {
+    transform: scale();
+}
+
+.mensajeAlerta {
+    color: red;
+    margin-top: 5px;
+
+}
+
+
+
+.inputTyC {
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.inputTyC > label {
+    order: 2;
+}
+
+
+.bgAlert {
+    background-color: red !important;
+}
+
+

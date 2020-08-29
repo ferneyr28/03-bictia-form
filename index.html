@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    
+    <form class="formContact" id="formulario"> 
+        <div class="contInput">
+            <h1>Registro</h1>
+            <label for="">Nombre:</label>
+            <input type="text" id="nombre">
+            <small id="mensaje_alerta_nombre" class="mensajeAlerta"></small>
+        </div>    
+        <div class="contInput">
+            <label for="">Apellido:</label>
+            <input type="text" id="apellido" >
+            <small id="mensaje_alerta_apellido" class="mensajeAlerta"></small>
+        </div>    
+        <div class="contInput">
+            <label for="">Correo:</label>
+            <input type="email" id="correo">
+            <small id="mensaje_alerta_correo" class="mensajeAlerta"></small>
+        </div>    
+        <div class="contInput">
+            <label for="">Clave:</label>
+            <input type="password" id="clave" >
+            <small id="mensaje_alerta_clave" class="mensajeAlerta"></small>
+        </div>
+        <div class="contInput">
+            <label for="">Edad:</label>
+            <input type="number" id="edad">
+            <small id="mensaje_alerta_edad" class="mensajeAlerta"></small>
+        </div>   
+        <div class="contInput inputTyC">
+            <label for="inputTyC">Acepto terminos y condiciones</label>
+            <input type="checkbox" name="" id="tYc">
+            <small id="mensaje_alerta_tYc" class="mensajeAlerta"></small>
+        </div>  
+        <input type="submit" value="Enviar" class="btnEnviar">
+    </form>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+    <script src="./assets/scripts/script.js"></script>
+</body>
+</html>
